@@ -249,13 +249,6 @@ def chat():
 - **AWS Lambda** - Function-as-a-Service
 - **Azure Container Instances** - Container hosting
 
-## 📚 Documentation
-
-- [📖 Complete Documentation](docs/README.md) - Comprehensive guide
-- [🔧 API Reference](docs/api.md) - Method documentation
-- [🚀 Deployment Guide](docs/deployment.md) - Production setup
-- [🧪 Testing Guide](docs/testing.md) - Testing strategies
-
 ## 🤝 Contributing
 
 We welcome contributions! Here's how to get started:
