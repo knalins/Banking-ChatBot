@@ -1,9 +1,7 @@
 # 🏦 AI Banking Chatbot
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Google GenAI](https://img.shields.io/badge/Google-GenAI-orange.svg)](https://ai.google.dev/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)]()
+[![Google GenAI](https://img.shields.io/badge/Google-GenAI-orange.svg)](https://ai.google.dev/)()
 
 A conversational AI banking assistant powered by Google GenAI that handles various banking operations through natural language interaction. Built with a **Sense → Reason → Action → Learn** framework for intelligent customer service.
 
@@ -274,11 +272,6 @@ We welcome contributions! Here's how to get started:
 - Update documentation for changes
 - Test with multiple conversation scenarios
 
-## 🐛 Issues & Support
-
-- 🐞 **Bug Reports**: [Create an issue](https://github.com/yourusername/banking-chatbot/issues)
-- 💡 **Feature Requests**: [Start a discussion](https://github.com/yourusername/banking-chatbot/discussions)
-- 📧 **Support**: support@yourcompany.com
 
 ## 📝 Changelog
 
@@ -296,60 +289,7 @@ We welcome contributions! Here's how to get started:
 - 🔐 Enhanced security features
 - 📊 Analytics dashboard
 
-## 🏆 Acknowledgments
-
-- [Google GenAI](https://ai.google.dev/) - For powerful language understanding
-- [Python Community](https://www.python.org/) - For excellent libraries and tools
-- Banking industry experts - For domain knowledge and requirements
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/banking-chatbot&type=Date)](https://star-history.com/#yourusername/banking-chatbot&Date)
-
 ---
 
 <div align="center">
 
-
-
-# Banking-ChatBot
-
-You will be greeted by the AI Banking Assistant and can start interacting with it.
-
-## 🤖 How to Use
-
-Once the chatbot is running, you can ask it questions or give it commands.
-
-### Example Interactions
-
-- **Check Balance:**
-  > **You:** `What is my account balance?`
-  > **Assistant:** `To assist you better, I'll need your account number. Could you please provide your 8-digit account number?`
-  > **You:** `My account number is 12345678`
-  > **Assistant:** `Hello John Doe! Your account balance is ₹15,000.50.`
-
-- **Apply for a Loan:**
-  > **You:** `I want to apply for a personal loan of 50000`
-  > **Assistant:** `I need your account number to proceed with this request.`
-  > **You:** `12345678`
-  > **Assistant:** `Loan Application Processed! Application ID: LOAN...`
-
-- **Block a Card:**
-  > **You:** `I need to block my debit card for account 87654321`
-  > **Assistant:** `Your debit card has been successfully blocked for security.`
-
-### Special Commands
-
-- `quit`: Exits the application.
-- `reset`: Clears the current conversation context (e.g., forgets the account number).
-- `context`: Displays the current user context that the chatbot has stored.
-
-## 📂 Code Overview
-
--   **`BankingChatbot`**: The main class that orchestrates the entire chatbot logic, including the Sense, Reason, Action, and Learn methods.
--   **`MockBankingAPI`**: A mock API class that simulates back-end banking operations. It provides dummy data for accounts, transactions, and interest rates, allowing the chatbot to be tested without a real banking integration.
--   **`main()`**: The entry point for the application, which handles the user interaction loop in the command line.
